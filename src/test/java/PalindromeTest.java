@@ -10,7 +10,6 @@ class PalindromeTest {
         
     }
 
-    Palindrome palindrome = new Palindrome();
     @Test
     public void testIfCheckPalindromeReturnsFalse(){
         assertFalse(palindrome.checkPalindromeFalse());
